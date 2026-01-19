@@ -31,7 +31,7 @@
 
   ## Research
 
-  **Dissertation:** *Bitcoin Price Formation and Volatility Dynamics: A Regime-Switching Approach*
+  **Thesis:** *Bitcoin Price Formation and Volatility Dynamics: A Regime-Switching Approach*
 
   - Volatility modelling (GARCH family) and out-of-sample forecasting
   - Markov-switching VAR for regime detection and macro-financial linkages
