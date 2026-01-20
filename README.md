@@ -40,12 +40,18 @@
   ---
 
   ## Technical Skills
+  
+**Programming**
+- Python: pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib
+- R: rugarch, rmgarch, MSwM, vars, forecast
 
-  Python:  pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib
-  R:       rugarch, rmgarch, MSwM, vars, forecast
-  Methods: GARCH/EGARCH/DCC, VAR/SVAR, Markov-switching, VaR, Monte Carlo
-  Tools:   Git, Stata, SQL, LaTeX
+**Quantitative & Econometric Methods**
+- Volatility: GARCH, EGARCH, DCC
+- Time Series: VAR, SVAR, Markov-switching
+- Risk: VaR, Monte Carlo simulation
 
+**Tools**
+- Git, Stata, SQL, LaTeX
   <p align="center">
       <a href="https://github.com/liefhunter?tab=repositories&language=python" target="_blank"><img alt="Python"
   src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white"></a>
