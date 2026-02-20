@@ -1,4 +1,4 @@
-# Hao Sun
+# Lief Sun
 
 **Economics PhD | Crypto Volatility · Quant Risk**
 
@@ -29,7 +29,7 @@ PhD in Economics from University of Bath, specialising in time-series econometri
 
 | Repo | Description |
 |------|-------------|
-| [bitcoin-var-determinants](https://github.com/liefsun/bitcoin-var-determinants) | VAR for Bitcoin price determinants — Granger causality, IRF & historical decomposition |
+| [bitcoin-var-determinants](https://github.com/liefsun/bitcoin-var-determinants) | VAR(10) for Bitcoin price determinants — Granger causality, IRF & historical decomposition |
 | [bitcoin-inflation-mfvar](https://github.com/liefsun/bitcoin-inflation-mfvar) | Mixed-frequency VAR linking daily Bitcoin returns to monthly CPI across US, Korea & Japan |
 | [bitcoin-regime-switching](https://github.com/liefsun/bitcoin-regime-switching) | Markov-switching VAR with EM estimation & bootstrap IRFs for regime detection |
 
