@@ -17,6 +17,12 @@ src="https://img.shields.io/badge/-ORCID-A6CE39?style=flat-square&logo=ORCID&log
 
 ---
 
+<p align="center">
+    <img alt="The Lief Box — things that represent me, in my favourite blue" src="assets/lief-box.svg" width="100%">
+</p>
+
+---
+
 ## About
 
 PhD in Economics from University of Bath, specialising in time-series econometrics and financial market microstructure. My research applies volatility modelling and regime-switching methods to crypto markets — directly transferable to systematic trading and risk management.

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="380" viewBox="0 0 840 380" role="img" aria-labelledby="t d">
+  <title id="t">The Lief Box</title>
+  <desc id="d">An open box in blue (#5391FE) filled with things that represent Lief Sun: Bitcoin, a volatility chart, regime switching, a Bath graduation cap, code, and a cup of tea.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F3F7FF"/>
+      <stop offset="1" stop-color="#E3EDFF"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5391FE"/>
+      <stop offset="1" stop-color="#2F6FE0"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B7BF0"/>
+      <stop offset="1" stop-color="#1F58C4"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7AAAFF"/>
+      <stop offset="1" stop-color="#A9C8FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="838" height="378" rx="22" fill="url(#bg)" stroke="#C9DBFF" stroke-width="2"/>
+
+  <!-- sparkles -->
+  <g fill="#5391FE" opacity="0.55">
+    <path d="M58 70 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+    <path d="M372 58 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+    <path d="M388 196 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5z"/>
+  </g>
+
+  <!-- box: back inner wall + lid -->
+  <polygon points="92,214 332,214 362,194 122,194" fill="#1A4FB3"/>
+  <polygon points="122,194 362,194 386,96 146,96" fill="url(#lid)" stroke="#5391FE" stroke-width="2"/>
+  <polygon points="122,194 362,194 386,96 146,96" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.7"/>
+
+  <!-- items (behind the front face) -->
+  <!-- volatility chart card -->
+  <g transform="rotate(-8 232 150)">
+    <rect x="178" y="104" width="112" height="84" rx="10" fill="#FFFFFF" stroke="#5391FE" stroke-width="2.5"/>
+    <polyline points="188,168 200,160 208,164 216,132 224,158 234,150 244,120 252,154 262,146 280,150" fill="none" stroke="#5391FE" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="190" y="124" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#1F58C4">σ²ₜ</text>
+  </g>
+
+  <!-- bitcoin coin (bobbing) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="140" cy="150" r="40" fill="#2F6FE0"/>
+    <circle cx="140" cy="146" r="40" fill="#5391FE" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="140" cy="146" r="31" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    <text x="140" y="162" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF">₿</text>
+  </g>
+
+  <!-- graduation cap (Bath PhD) -->
+  <g transform="translate(6 -30) rotate(10 318 130)">
+    <polygon points="318,104 362,122 318,140 274,122" fill="#123E94"/>
+    <path d="M294 130 v18 q24 14 48 0 v-18 l-24 10z" fill="#1F58C4"/>
+    <line x1="352" y1="126" x2="352" y2="152" stroke="#A9C8FF" stroke-width="2.5"/>
+    <circle cx="352" cy="155" r="4" fill="#A9C8FF"/>
+  </g>
+
+  <!-- code tag -->
+  <g transform="rotate(6 250 196)">
+    <rect x="214" y="178" width="72" height="34" rx="8" fill="#123E94"/>
+    <text x="250" y="201" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-weight="700" font-size="16" fill="#FFFFFF">&lt;py/&gt;</text>
+  </g>
+
+  <!-- regime switch dice-ish block -->
+  <g transform="rotate(-12 170 200)">
+    <rect x="146" y="180" width="48" height="36" rx="7" fill="#A9C8FF" stroke="#1F58C4" stroke-width="2"/>
+    <text x="170" y="204" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#123E94">S₁⇄S₂</text>
+  </g>
+
+  <!-- tea cup -->
+  <g transform="translate(6 -16)">
+    <path d="M300 186 h44 v12 q0 18 -22 18 q-22 0 -22 -18z" fill="#FFFFFF" stroke="#1F58C4" stroke-width="2.5"/>
+    <path d="M344 192 q12 0 12 9 q0 9 -12 9" fill="none" stroke="#1F58C4" stroke-width="2.5"/>
+    <path d="M314 180 q-4 -8 0 -14 M328 180 q-4 -8 0 -14" fill="none" stroke="#5391FE" stroke-width="2" stroke-linecap="round" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- box: front + side faces -->
+  <polygon points="332,214 362,194 362,310 332,340" fill="url(#side)"/>
+  <rect x="92" y="214" width="240" height="126" rx="4" fill="url(#front)"/>
+  <rect x="92" y="214" width="240" height="10" fill="#FFFFFF" opacity="0.18"/>
+  <rect x="198" y="214" width="28" height="126" fill="#FFFFFF" opacity="0.22"/>
+  <text x="212" y="296" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="3" fill="#FFFFFF">LIEF</text>
+
+  <!-- right column: legend -->
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="430" y="72" font-size="28" font-weight="800" fill="#123E94">The Lief Box</text>
+    <text x="430" y="98" font-size="14" fill="#4A6BA8">things that make me, me — in my favourite blue</text>
+    <line x1="430" y1="114" x2="800" y2="114" stroke="#C9DBFF" stroke-width="2"/>
+
+    <g font-size="15" fill="#1B2B4B">
+      <circle cx="442" cy="143" r="11" fill="#5391FE"/><text x="442" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">₿</text>
+      <text x="464" y="148"><tspan font-weight="700">Crypto markets</tspan> — my research playground</text>
+
+      <circle cx="442" cy="179" r="11" fill="#5391FE"/><text x="442" y="184" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">σ</text>
+      <text x="464" y="184"><tspan font-weight="700">Volatility</tspan> — GARCH · EGARCH · DCC</text>
+
+      <circle cx="442" cy="215" r="11" fill="#5391FE"/><text x="442" y="219" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">⇄</text>
+      <text x="464" y="220"><tspan font-weight="700">Regime switching</tspan> — Markov-switching VAR</text>
+
+      <circle cx="442" cy="251" r="11" fill="#5391FE"/><text x="442" y="255" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">Ph</text>
+      <text x="464" y="256"><tspan font-weight="700">PhD Economics</tspan> — University of Bath</text>
+
+      <circle cx="442" cy="287" r="11" fill="#5391FE"/><text x="442" y="291" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">&lt;/&gt;</text>
+      <text x="464" y="292"><tspan font-weight="700">Python · R · Stata</tspan> — models into code</text>
+
+      <circle cx="442" cy="323" r="11" fill="#5391FE"/><text x="442" y="327" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">UK</text>
+      <text x="464" y="328"><tspan font-weight="700">Tea &amp; the UK</tspan> — London / Remote</text>
+    </g>
+  </g>
+</svg>
